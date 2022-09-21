@@ -2,14 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline-style: none;
 }
 
 :root{
-    --color-primary: /* definir */;
-    --color-grey-1: #191C1F;
-    --color-grey-2: #212529;
-    --color-grey-3: #343A40;
-    --color-grey-4: #ADB5BD;
-    --color-grey-5: #CED4DA;
-    --color-grey-6: #EDF2FF;
+    --color-primary: #DDC4E6;
+    --color-yellow: #FBF5D8;
+    --color-white: white;
+    --color-background-1: rgba(255, 255, 255, 0.527);
+    --color-background-2:rgba(0, 0, 0, 0.004);
+    --color-black:black;
+    --color-box-shadow:rgba(0,0,0,0.75)
+    
 }

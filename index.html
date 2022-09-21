@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/inputs.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./pages/login/index.css">
+    <script defer src="/SPRINT 1/entrega-pagina-login/scripts/modal.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="big-div">
+    <main>
+        <div class="container">
+        <div class="description">
+            <img class="logo" src="./pages/login/novalogo.png">
+            <h2 class="form-logo">Experimento</h2>
+            <p>A ciência hoje é capaz de provar muitas coisas. Aqui você consegue utilizar a ciência a seu favor para entender como ser a sua melhor versão. Venha conhecer o Experimento! O programa que ajuda <strong>você</strong>!</p>
+            <img class="background"src="./pages/login/colorido.jpg">
+        </div>
+        <div class="form">
+            <h2>Cadastre-se ou faça seu login!</h2>
+            <form class="form-inputs">
+                <label for="email">E-mail:</label>
+                <input type="text" placeholder="Digite seu e-mail aqui">
+                <label for="email">Senha:</label>
+                <input  type="text" placeholder="Digite sua senha aqui">
+                <a href=""id="button"class="modal-button"data-control-modal="modal-login">Esqueci minha senha</a> 
+                <button type="submit">Login</button>
+                
+            </form>
+        </div>
+        </div>
+    </main>
+
+    <div class="modal hidden">
+        <button class="modal-button" id="button-close">X</button>
+        <h2 class="recover-password">Esqueceu sua senha?</h2>
+         
+        <p>Por favor, informe seu endereço de e-mail e receberá um link para alteração de senha.
+        </p>
+        <input type="text" placeholder="Digite seu email aqui"><br>
+        <button class="modal-send" type="submit" aria-placeholder="digite seu e-mail aqui">Enviar</button>
+    </div>
+    </div>
+</body>
+
+</html>
